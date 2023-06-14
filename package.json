@@ -1,10 +1,10 @@
 {
-  "name": "page-loader",
+  "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/Ilya-Chu/backend-project-4/workflows/hexlet-check/badge.svg)](https://github.com/Ilya-Chu/backend-project-4/actions)",
+  "description": "Page-loader cli utilite ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jest"
   },
   "repository": {
     "type": "git",
