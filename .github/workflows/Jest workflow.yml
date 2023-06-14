@@ -30,6 +30,6 @@ jobs:
         uses: paambaati/codeclimate-action@v2.7.4
 
         env:
-          CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+          CC_TEST_REPORTER_ID: b21d766c81e8582b7b6ab49acec55d92b32265ab6a0d6b39eebdeb3d80ef2346
         with:
           coverageCommand: make jest
