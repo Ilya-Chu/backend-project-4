@@ -1,0 +1,35 @@
+{
+  "name": "page-loader",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/Ilya-Chu/backend-project-4/workflows/hexlet-check/badge.svg)](https://github.com/Ilya-Chu/backend-project-4/actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Ilya-Chu/backend-project-4.git"
+  },
+  "author": "Il_Ch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ilya-Chu/backend-project-4/issues"
+  },
+  "homepage": "https://github.com/Ilya-Chu/backend-project-4#readme",
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "jest": "^29.5.0",
+    "nock": "^13.3.1"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "axios-debug-log": "^0.8.4",
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^9.4.0",
+    "debug": "^4.3.4",
+    "listr": "^0.14.3",
+    "prettier": "^2.7.1"
+  }
+}
